@@ -1,0 +1,4 @@
+venv/
+.idea/
+app/migrations/
+app/__pycache__/
