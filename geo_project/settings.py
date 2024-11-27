@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'geodjango_db',
         'USER': 'postgres',
         'PASSWORD': '597366',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432',
 
     }
@@ -124,5 +124,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-GDAL_LIBRARY_PATH = r"C:\gdal\bin\gdal.dll"
-GEOS_LIBRARY_PATH = r"C:\gdal\bin\geos_c.dll"
+# GDAL_LIBRARY_PATH = r"C:\gdal\bin\gdal.dll"
+# GEOS_LIBRARY_PATH = r"C:\gdal\bin\geos_c.dll"
